@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keat</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            border: 2px solid black;
+            list-style: none;
+        }
+        .h-menu{
+            float: left;
+            height: 30px;
+            width: 100px;
+            box-sizing: border-box;
+        }
+        .check{
+            height: 15px;
+            background-color: green;
+        }
+        .menu-container{
+            width: 400px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 속성을 변경하지 않은 세로 메뉴 -->
+    <ul>
+        <li class="v-menu">세로메뉴01</li>
+        <li class="v-menu">세로메뉴02</li>
+        <li class="v-menu">세로메뉴03</li>
+        <li class="v-menu">세로메뉴04</li>
+    </ul>
+    <!-- inline으로 변경된 가로 메뉴 -->
+    <ul class="menu-container">
+        <li class="h-menu">가로메뉴01</li>
+        <li class="h-menu">가로메뉴02</li>
+        <li class="h-menu">가로메뉴03</li>
+        <li class="h-menu">가로메뉴04</li>
+    </ul>
+    <div class="check"></div>
+</body>
+</html>
