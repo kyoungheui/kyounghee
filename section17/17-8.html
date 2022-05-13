@@ -17,11 +17,12 @@
             text-decoration: none;
         }
         .nav{
-            width: 200px;
+            width: 1000px;
             overflow: hidden;
             position: relative;
         }
         .nav li{
+            width: 200px;
             font-size: 14px;
             background-color: #000000;
             text-align: center;
@@ -32,7 +33,7 @@
             box-sizing: border-box;
             color: white;
             cursor: pointer;
-            transition: 0.5s;
+            float: left;
         }
         .submenu li{
             font-size: 12px;
@@ -43,6 +44,7 @@
         }
         .submenu li a{
             color: black;
+            /* a가 우선권이라 노랑색이 안먹히고 검정색으로 들어감 */
         }
         .submenu { 
             height: 0;
@@ -58,6 +60,11 @@
         .submenu li:hover {
             background-color: burlywood;
             color: yellow;
+            /* 이유 위에 있음 / important 먹혀도 안됨  */
+        }
+        .submenu li:hover a{
+            color: yellow;
+            /* 이렇게 따로 해줘야 나옴 */
         }
     </style>
 </head>
