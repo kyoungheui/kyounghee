@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-    *{
+
+    * {
         margin: 0;
         padding: 0;
     }
+
         .container{
             background-color: gray;
             width: 500px;
@@ -18,36 +20,80 @@
             align-items: center;
             justify-content: center;
         }
-        .animation-wrapper{
+
+        .animation-wrapper {
             height: 250px;
             width: 150px;
-            background-color: antiquewhite;
+            display: flex;
         }
-        .animation-wrapper > div{
+
+        .animation-wrapper > div {
             width: 50px;
             height: 50px;
             background-color: orange;
         }
-        .animation-wrapper > .storke1 {
+        .animation-wrapper > .stroke1 {
             height: 250px;
+            animation: st-a1 5s infinite alternate
         }
     
         .animation-wrapper > .stroke2{
             position: relative;
             top: 50%;
             transform: translateY(-50%);
+            animation: st-a2 5s infinite alternate
         }
+
         .animation-wrapper > .stroke3 {
             height: 250px;
+            animation: st-a3 5s infinite alternate
+        }
+
+        @keyframes st-a1 {
+            from {
+                height: 0;
+            }
+            20% { 
+                height: 250px;
+            }
+        }
+        @keyframes st-a2 {
+            from {
+                width: 0;
+            }
+            20% {
+                width: 0;
+            }
+            40% {
+                width: 50px;
+            }
+            to{
+               
+            }
+        }
+        @keyframes st-a3 {
+            from{
+                height: 0;
+            }
+            40%{ 
+                height: 0;
+            }
+            60% { 
+                height: 250px;
+            }
+            to {
+                
+            }
         }
         </style>
 </head>
 <body>
     <div class="container">
-        <div class="animation-wrapper"></div>
-        <div class="stroke1"></div>
-        <div class="stroke2"></div>
-        <div class="stroke3"></div>
+        <div class="animation-wrapper">
+            <div class="stroke1"></div>
+            <div class="stroke2"></div>
+            <div class="stroke3"></div>
+        </div>
     </div>
 </body>
 </html>

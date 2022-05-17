@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #wrapper{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    img{
+        display: block;
+        width: 100%;
+    }
+    main {
+        width: 100%;
+        height: 600px;
+    }
+    header{
+        width: 100%;
+        height: 120px;
+        background-color: aquamarine;
+    }
+    aside{
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-color: antiquewhite;
+    }
+    section{
+        float: right;
+        width: 60%;
+        height: 100%;
+        background-color: darksalmon;
+    }
+    figure{
+        object-fit: cover;
+        height: 400px;
+        overflow: hidden;
+    }
+    footer{
+        clear: both;
+        width: 960px;
+        background-color: gray;
+    }
+</style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>가변 그리드 만들어보기</header>
+        <main>
+            <aside>aside</aside>
+            <section>
+                <figure>
+                    <img src="../img/pen.png" alt="대체이미지">
+                </figure>
+            </section>
+        </main>
+            <footer>footer</footer>
+    </div>
+</body>
+</html>
