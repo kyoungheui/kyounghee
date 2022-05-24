@@ -42,4 +42,8 @@ table {
 	border-spacing: 0;
 }
 
+a {
+    display: block;
+	text-decoration: none;
+}
 
