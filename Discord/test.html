@@ -11,45 +11,69 @@
 <body>
     <header>
         <h2>
-            <figure class="logo">
-                <img src="img/cc59daa07820943e943c2fc283b9079d7003ff76.svg" alt="discord">
-            </figure>
+          <img src="img/cc59daa07820943e943c2fc283b9079d7003ff76.svg" alt="discord">
             <span class="hidden">Discord</span>
         </h2>
-            <div class="nav-wrapper">
-               <nav class="user-nav">
-
+          <nav class="user-nav">
                    <a href="//feedback.discord.com/">피드백</a></li>
                    <a href="#">한국어
                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="dropdown-chevron-icon">
                        <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
                     </svg>
-                    </a>
-                    <a href="https://support.discord.com/hc/ko/requests/new">문의 등록</a>
-                  </nav>
-            </div>
+                  </a>
+                  <a href="https://support.discord.com/hc/ko/requests/new">문의 등록</a>
+          </nav>
             <a href="#" class="login">로그인</a>
             
-        </header>
-        <main>
+          </header>
+          
+          
+          <main>
+            <setion.title>
+              <div class="banner">
+                <h1>고객 지원 센터</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-iconb" aria-hidden="true">
+                  <circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor"/>
+                  <path stroke="currentColor" stroke-linecap="round" d="M11 11L7.5 7.5"/>
+                </svg>
+                <input type="text" placeholder="검색">
+              </div>
+              </setion>
             <section class="main-content">
-                <div class="banner">
-                    <h1>고객 지원 센터</h1>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-iconb" aria-hidden="true">
-                        <circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor"/>
-                        <path stroke="currentColor" stroke-linecap="round" d="M11 11L7.5 7.5"/>
-                      </svg>
-                    <input type="text" placeholder="검색">
-                </div>
-            <section class="intro">
-                <h2>도움이 필요하신가요? 저희가 도와드리겠습니다</h2>
+                <div class="intro">
+                  <h2>도움이 필요하신가요? 저희가 도와드리겠습니다</h2>
                 <p>계정 설정부터 승인까지 Discord와 관련된 모든것을 문의하세요.
                     <br> Discord를 시작한 지 얼마 안 되어 팁을 찾고 계신가요? 그렇다면, 저희의 <a href="https://support.discord.com/hc/ko/articles/360045138571">초보자를 위한 가이드를 확인해보세요</a>
                 </p>
+                <div class="container">
+                  <figure>
+                    <a href="https://support.discord.com/hc/ko/categories/115000193752">
+                      <img src="./img/1bd76d1fd516f8dacd3c7422a8ceb929ef2502d9.svg">
+                      <figcaption>
+                        <h3>공지 사항</h3>
+                        <hr />
+                        <p>들어보세요, 무언가 심상치 않은 일이 벌어지고 있습니다.</p>
+                      </figcaption>
+                    </a>
+
+                  </figure>
+                </div>
+                </div>
+                
             </section>
+
+            <!-- 원본 페이지에서 사각형 안에 이미지랑 텍스트가 있는데 그때 figure쓰면 좋음 
+                  <figure>
+                    <a href="">
+                      <img src="" alt="">
+                      <figcaption>텍스트 내용(안에 h태그, p태그 또 만들어도 됨)</figcaption>
+                    </a>
+                  </figure>
+            -->
+
+           
             <section class="category">
                 <ul class="flex-container">
-  
                     <a href="https://support.discord.com/hc/ko/categories/115000193752">
                       <li class="notice">
                         <h2>공지 사항</h2>
@@ -158,6 +182,7 @@
             </section>
         </main>
 
+        <!-- 푸터가 한 개라서 id는 안 줘도 될 거 같습니당 -->
         <footer id="end">
             <div class="content">
                 <div class="footer-bk">
