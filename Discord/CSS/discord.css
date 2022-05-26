@@ -6,12 +6,9 @@ header {
     align-items: center;
     display: flex;
     height: 71px;
-    justify-content: space-between;
 }
 
-.logo {
-    max-height: 37px;
-}
+
 
 .hidden {
     position: absolute;
@@ -20,8 +17,29 @@ header {
     clip: rect(1px, 1px, 1px, 1px);
     overflow: hidden;
 }
+.logo {
+    max-height: 37px;
+}
 
-.main-content{
+.user-nav {
+    display: flex;
+    width: 768px;
+    justify-content: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-nav > a {
+    padding: 0 15px 0 0;
+    font-size: 14px;
+    
+    
+}
+
+.login {
+    display: inline-flex;
+    
+}
+.banner{
     background-image: url(https://theme.zdassets.com/theme_assets/678183/b7e9dce75f9edb23504e13b4699e208f204e5015.png);
     background-position: center;
     background-size: cover;
@@ -29,4 +47,14 @@ header {
     padding: 0 20px;
     text-align: center;
     width: 100%;
+}
+
+.banner > h1 {
+    font-size: 36px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 0 0 20px;
+    padding: 35px 0 0 0;
+    text-align: center;
 }
