@@ -44,9 +44,14 @@ table {
 
 a {
 	text-decoration: none;
+    color: inherit;
 }
 
 *{
 	box-sizing: border-box;
 	font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+	display: block;
 }
