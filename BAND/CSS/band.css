@@ -1,0 +1,227 @@
+.link {
+   height: 100%;
+   display: block;
+}
+
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    overflow: hidden;
+}
+
+header {
+    position: relative;
+    min-width: 1000px;
+    display: flex;
+    height: 68px;
+    background-color: #f6f8fa;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0 1%;
+    
+}
+h1 {
+    background-image: url(../img/spr_intro_2x.png);
+    background-position: 0 -96px;
+    width: 78px;
+    height: 29px;
+    background-size: 231px auto;
+}
+
+.user-nav {
+    display: flex;
+    position: absolute;
+    right: 30px
+}
+
+.user-nav > .korea {
+    opacity: 0.5;
+}
+
+.user-nav > a {
+    padding: 13px;
+}
+
+.login {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fafafa;
+    display: inline-block;
+    height: 35px;
+    margin: 0 0 0 26px;
+    padding: 0 23px;
+    border-radius: 2px;
+    background-color: #21c531;
+    line-height: 35px;
+    border: 0px solid;
+    margin-top: 3px;
+}
+
+.login:hover {
+    box-shadow:  0px 2px 8px 0px rgb(33 197 49 / 54%);
+}
+
+
+.container {
+    padding-top: 76px;
+    background-color: #f6f8fa;
+    width: 100%;
+    
+}
+
+.main-box {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+.main-left {
+   margin: 0 50px 0 0 ;
+
+}
+.slogan {
+    background: url(../img/bg_sloganImg.jpg) no-repeat;
+    flex: 0 0 auto;
+    width: 540px;
+    height: 695px;
+    background-size: 540px auto;
+
+}
+.main-right {
+    flex: 0 1 auto;
+    overflow: hidden;
+    padding-bottom: 60px;
+
+}
+.main-right h2{
+    font-size: 48px;
+    font-weight: 500;
+    color: #222;
+    letter-spacing: -1px;
+    line-height: 1.21;
+    margin-top: 122px;
+}
+
+.main-right h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #444;
+    margin-top: 13px;
+}
+
+.button-box {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 340px; 
+}
+
+.button-box > button {
+    display: block;
+    flex: 0 0 auto;
+    width: 100%;
+    height: 54px;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 54px;
+}
+
+.main-login {
+    color: #fff;
+    background-color: #21c531;
+    border: 0px
+}
+
+.main-login:hover {
+    box-shadow: 0 2px 10px 0 rgb(33 197 49 / 54%);
+}
+
+.sign-up {
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+    color: #333;
+    margin-top: 12px;
+}
+
+.sign-up:hover {
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 15%);
+}
+
+.main-right p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #444;
+    margin-top: 36px;
+    display: flex;
+}
+
+.main-right p+p {
+    margin-top: 10px;
+}
+
+.link-text {
+    font-size: 13px;
+    font-weight: 600;
+    color: #2ecc71;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.intro {
+    background-color: #fff;
+}
+
+.imgsection {
+    background-image: url(../img/bg_intro.jpg);
+    position: relative;
+    display: flex;
+    height: 540px;
+    background-position: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: 500;
+    text-shadow: 0 1px 1px rgb(0 0 0 / 11%);
+    color: #fff;
+    letter-spacing: -1px;
+}
+
+.intro p {
+    width: 650px;
+    margin: 18px auto 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.63;
+    text-align: center;
+}
+
+.intro-list {
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.intro-container {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    text-align: left;
+}
+.intro-image img {
+    width: 100%;
+    vertical-align: top;
+    
+}
+.intro-explanation {
+    text-align: left;
+}
