@@ -197,7 +197,7 @@ h1 {
     width: 650px;
     margin: 18px auto 0;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     color: #fff;
     line-height: 1.63;
     text-align: center;
@@ -216,12 +216,10 @@ h1 {
     width: 300px;
     vertical-align: top;
     text-align: left;
+    margin: 0 25px;
 }
 .intro-image img {
     width: 100%;
     vertical-align: top;
     
-}
-.intro-explanation {
-    text-align: left;
 }
